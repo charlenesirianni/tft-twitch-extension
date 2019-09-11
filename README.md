@@ -1,6 +1,6 @@
 # A Twitch Extension for Teamfight Tactics
 
-This is a demo project to build responsive and reusable UI with a tiered-CSS approach. The majority of the classes are functional CSS.
+This is a demo project that constructs responsive and reusable UI with a tiered-CSS approach. The majority of the classes are functional CSS.
 
 - Tier 1: Basscss | http://basscss.com (MIT License), used to build the responsive layout
 - Tier 2: A set of CSS for generic styles that can be reused to build other extensions (The class names are prefixed with "e-")
