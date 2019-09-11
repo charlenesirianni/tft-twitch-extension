@@ -5,7 +5,7 @@
     }
 }
 
-/* Start: Basscss | http://basscss.com | MIT License */
+/* Start: Tier 1 - Basscss | http://basscss.com | MIT License */
 
 .h1 {
     font-size: 3.2rem
@@ -1163,9 +1163,9 @@
     display: none!important
 }
 
-/* End: Basscss | http://basscss.com | MIT License */
+/* End: Tier 1 - Basscss | http://basscss.com | MIT License */
 
-/* Start: shared/styles.css */
+/* Start: Tier 2 - more functional CSS, reusable for other extensions */
 
 * {
     -webkit-box-sizing: border-box;
@@ -1729,9 +1729,9 @@ input:checked+.e-switch__slider:before {
     }
 }
 
-/* End: shared/styles.css */
+/* End: Tier 2 - more functional CSS, reusable for other extensions */
 
-/* Start: tft.css */
+/* Start: Tier 3 - functional CSS, only applicable to this extension */
 
 html, select, input, textarea {
     font-family: sans-serif;
@@ -2082,22 +2082,10 @@ a:active {
     filter: brightness(.9);
 }
 
-/* width */
-
 ::-webkit-scrollbar {
     width: .8rem;
     height: .8rem;
 }
-
-/* Track */
-
-::-webkit-scrollbar-track {
-    /* box-shadow: inset 0 0 1px rgba(201, 170, 113, 1); */
-    /* border: solid 1px red;
-    border-radius: .5rem; */
-}
-
-/* Handle */
 
 ::-webkit-scrollbar-thumb {
     background: var(--c-background-alt);
@@ -2117,7 +2105,9 @@ a:active {
     line-height: 1;
 }
 
-/* End: tft.css */
+/* End: Tier 3 - functional CSS, only applicable to this extension */
+
+/* Start: Tier 4 - additional CSS only applicable to the Overlay version of this extension */
 
 html {
     /* Setting the rem unit */
@@ -2232,3 +2222,5 @@ body:hover .tft-min {
         display: none!important
     }
 }
+
+/* End: Tier 4 - additional CSS only applicable to the Overlay version of this extension */
